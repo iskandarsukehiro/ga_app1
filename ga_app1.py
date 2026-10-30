@@ -79,12 +79,12 @@ def evolve(pop: np.ndarray, generations: int):
     return best_individual, best_f, best_fitness_per_gen
 
 # ---- Streamlit UI ----
-st.set_page_config(page_title="Bit Pattern GA (70 bits, target ones = 40)", page_icon="🧬", layout="centered")
+st.set_page_config(page_title="Bit Pattern GA (80 bits, target ones = 50)", page_icon="🧬", layout="centered")
 
-st.title("🧬 Genetic Algorithm: Evolve a 70-bit Pattern")
+st.title("🧬 Genetic Algorithm: Evolve an 80-bit Pattern")
 st.caption(
-    "Fixed requirements: Population = 200, Chromosome Length = 70, Generations = 50.\n"
-    "Fitness peaks at ones = 40, with max fitness = 70."
+    "Fixed requirements: Population = 300, Chromosome Length = 80, Generations = 50.\n"
+    "Fitness peaks at ones = 50, with max fitness = 80."
 )
 
 with st.expander("ℹ️ Problem setup (fixed by requirement)", expanded=True):
