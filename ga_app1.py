@@ -138,7 +138,7 @@ if run_btn:
 
     # Validation note
     if best_fit == MAX_FITNESS and ones_count == TARGET_ONES:
-        st.success("Perfect match achieved: ones = 40 and fitness = 70 ✅")
+        st.success("Perfect match achieved: ones = 50 and fitness = 80 ✅")
     else:
         st.info("GA may reach near-optimal solutions; try another seed to explore further.")
 
