@@ -5,10 +5,10 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # ---- Fixed GA Parameters (updated as requested) ----
-POP_SIZE = 200          # 1) population setup
-CHROM_LEN = 70          # 3) length of individuals
-TARGET_ONES = 40        # 2) optimum at ones == 40
-MAX_FITNESS = 70        # 4) return value is 70 when ones == 40
+POP_SIZE = 300          # 1) population setup
+CHROM_LEN = 80          # 3) length of individuals
+TARGET_ONES = 50        # 2) optimum at ones == 40
+MAX_FITNESS = 80        # 4) return value is 70 when ones == 40
 N_GENERATIONS = 50      # 5) number of generations
 
 # ---- GA Hyperparameters (simple & sensible) ----
